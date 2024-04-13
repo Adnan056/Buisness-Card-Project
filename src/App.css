@@ -1,0 +1,71 @@
+.container {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  /* border: 3px solid red; */
+  width: 550px;
+  height: 1080px;
+  background-color: #1A1B20;
+  border-radius: 20px 20px;
+  padding-bottom: 10px;
+}
+
+.block1{
+  height: 400px;
+  /* border-bottom: 2px solid red; */
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.block1 > .image >img {
+  width: 100%;
+  height: auto;
+}
+
+.name{
+  text-align: center;
+  line-height: 0%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#nam {
+  font-size: 35px;
+  margin-bottom: 45px;
+}
+
+#job{
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.web {
+  margin-bottom:30px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px 0 20px;
+}
+
+.buttons > button{
+  width: 200px;
+}
+#but1{
+  color: black;
+  background-color: white;
+}
+#but2{
+  background-color: #5F8FD9;
+}
+#about {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#about > #title{
+  font-size: 25px;
+
+}
